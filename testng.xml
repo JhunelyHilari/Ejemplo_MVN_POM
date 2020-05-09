@@ -1,0 +1,9 @@
+<suite name="PruebasRegresión">
+    <test name="login">
+        <classes>
+            <class name="test.testBank">
+
+            </class>
+        </classes>
+    </test>
+</suite>

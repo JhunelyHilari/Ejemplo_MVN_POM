@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PruebasRegresión" duration-ms="14141" started-at="2020-05-08T22:47:54 COT" finished-at="2020-05-08T22:48:08 COT">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="14141" started-at="2020-05-08T22:47:54 COT" finished-at="2020-05-08T22:48:08 COT">
+      <class name="test.testBank">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.testBank@4cf777e8]" name="setUp" is-config="true" duration-ms="9984" started-at="2020-05-08T22:47:54 COT" finished-at="2020-05-08T22:48:04 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IngresarRegistro()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarRegistro" duration-ms="3222" started-at="2020-05-08T22:48:04 COT" finished-at="2020-05-08T22:48:07 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarRegistro -->
+        <test-method status="PASS" signature="IngresarTitulo()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarTitulo" duration-ms="188" started-at="2020-05-08T22:48:07 COT" depends-on-methods="test.testBank.IngresarRegistro" finished-at="2020-05-08T22:48:07 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarTitulo -->
+        <test-method status="PASS" signature="IngresarNombres()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarNombres" duration-ms="82" started-at="2020-05-08T22:48:07 COT" depends-on-methods="test.testBank.IngresarTitulo" finished-at="2020-05-08T22:48:07 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarNombres -->
+        <test-method status="PASS" signature="IngresarApellidos()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarApellidos" duration-ms="69" started-at="2020-05-08T22:48:07 COT" depends-on-methods="test.testBank.IngresarNombres" finished-at="2020-05-08T22:48:07 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarApellidos -->
+        <test-method status="PASS" signature="SelectGenero()[pri:0, instance:test.testBank@4cf777e8]" name="SelectGenero" duration-ms="60" started-at="2020-05-08T22:48:07 COT" depends-on-methods="test.testBank.IngresarApellidos" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGenero -->
+        <test-method status="PASS" signature="IngresarFechNac()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarFechNac" duration-ms="133" started-at="2020-05-08T22:48:08 COT" depends-on-methods="test.testBank.SelectGenero" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarFechNac -->
+        <test-method status="PASS" signature="IngresarNumSocial()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarNumSocial" duration-ms="74" started-at="2020-05-08T22:48:08 COT" depends-on-methods="test.testBank.IngresarFechNac" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarNumSocial -->
+        <test-method status="PASS" signature="IngresarCorreo()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarCorreo" duration-ms="96" started-at="2020-05-08T22:48:08 COT" depends-on-methods="test.testBank.IngresarNumSocial" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarCorreo -->
+        <test-method status="PASS" signature="IngresarPass()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarPass" duration-ms="69" started-at="2020-05-08T22:48:08 COT" depends-on-methods="test.testBank.IngresarCorreo" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarPass -->
+        <test-method status="PASS" signature="IngresarConfirmPass()[pri:0, instance:test.testBank@4cf777e8]" name="IngresarConfirmPass" duration-ms="69" started-at="2020-05-08T22:48:08 COT" depends-on-methods="test.testBank.IngresarPass" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngresarConfirmPass -->
+        <test-method status="PASS" signature="Confirmar()[pri:0, instance:test.testBank@4cf777e8]" name="Confirmar" duration-ms="58" started-at="2020-05-08T22:48:08 COT" depends-on-methods="test.testBank.IngresarConfirmPass" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confirmar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.testBank@4cf777e8]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-05-08T22:48:08 COT" finished-at="2020-05-08T22:48:08 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.testBank -->
+    </test> <!-- login -->
+  </suite> <!-- PruebasRegresión -->
+</testng-results>
